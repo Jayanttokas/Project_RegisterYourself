@@ -1,0 +1,31 @@
+h1{
+  font-family: 'Oleo Script', cursive;
+}
+
+#error{
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+  display: none;
+}
+
+#heading{
+  border: 2px solid black;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 20px;
+}
+
+p{
+  font-family: 'Oleo Script', cursive;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    grid-template-columns: auto auto;
+  }
+}

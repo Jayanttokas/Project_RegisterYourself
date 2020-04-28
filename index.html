@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-fluid p-2 bg-warning" id="heading">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Register Yourself for Free Courses</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+      <div class="row justify-content-center">
+        <div class="col-7 p-3 rounded-pill mt-3 bg-danger text-center" id="error">
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <form>
+              <div class="form-group mt-4 row">
+                <label for="name" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name" required ></input>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="Course" class="col-sm-2 col-form-label" required >Course</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="course">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="teacher" class="col-sm-2 col-form-label" required >Teacher</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="teacher">
+                </div>
+              </div>
+
+              <div class="row p-2 justify-content-center">
+                <button class="btn btn-primary" id="submit" type="button" name="button">Submit</button>
+              </div>
+            </form>
+        </div>
+      </div>
+
+      <div class="container mt-4 text-center ">
+          <h1>Registered Students</h1><br>
+        <div class="row justify-content-center">
+          <div class="card-container">
+
+              <div>
+                <div class="card" >
+                  <img class="card-img-top" src="nerd.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"> <strong>Name</strong>: Jayant Tokas </p>
+                    <p class="card-text"> <strong>Course</strong>: Web Developer </p>
+                    <p class="card-text"> <strong>Teacher</strong>: Andrie </p>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
